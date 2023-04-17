@@ -9,15 +9,25 @@
     background-color: #FFE100;
     color: #fff;
     padding: 10px;
-    height: 80px;
+    height: 100px;
 }
 
 #WeldasLogo {
-    margin-left: 23%;
+    margin-left: 21%;
     width: 150px;
 }
 
-#menuicon{
+#menuicon {
     margin-left: 0%;
-    width: 30px;
+    width: 40px;
+}
+
+#winkelwagen {
+    margin-left: 18px;
+    width: 40px;
+}
+
+#account {
+    margin-left: 5%;
+    width: 40px;
 }
