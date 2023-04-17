@@ -12,6 +12,12 @@
     height: 80px;
 }
 
-.navbar-logo {
-    align-items: center;
+#WeldasLogo {
+    margin-left: 23%;
+    width: 150px;
+}
+
+#menuicon{
+    margin-left: 0%;
+    width: 30px;
 }
