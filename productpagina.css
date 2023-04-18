@@ -13,21 +13,59 @@
 }
 
 #WeldasLogo {
-    margin-left: 21%;
-    width: 150px;
+    margin-left: 15%;
+    width: 210px;
+    margin-top: 5%;
 }
 
 #menuicon {
-    margin-left: 0%;
+    margin-top: 4%;
     width: 40px;
 }
 
 #winkelwagen {
+    margin-top: 4%;
     margin-left: 18px;
     width: 40px;
 }
 
 #account {
+    margin-top: 4%;
     margin-left: 5%;
     width: 40px;
+}
+
+.searchbar {
+    display: flex;
+    align-items: center;
+    background-color: #0A264B;
+    color: #fff;
+    padding: 10px;
+    height: 50px;
+}
+
+.textbox {
+    background-color: #fff;
+    border-radius: 15px;
+    width: 405px;
+    display: flex;
+}
+
+.textbox p {
+    margin-bottom: 0;
+    font-size: 16px;
+    line-height: 2.5;
+}
+
+#zoeken {
+    color: black;
+    font-family: 'cabin';
+    margin-left: 20px;
+}
+
+#vergrootglas {
+    margin-left: 250px;
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
 }
