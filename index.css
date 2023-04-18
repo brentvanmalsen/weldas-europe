@@ -1,65 +1,64 @@
-
 #navBar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    font-family: Kaneda Gothic-medium;
-    font-size: 20px;
-    text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   background-color: #FFE100;
-  }
+}
 
-  
-  
-  #weldasLogo {
-    width: 118px;
-    height: 28px;
-cursor: pointer;    
-display: grid;
-    grid-template-columns: repeat(5, 1fr);
-  }
+#navBar nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 25px ;
+  padding-bottom: 25px ;
+}
 
-  #hamburgerMenu
-  {
-width: 40px;
-height: 40px;
-grid-template-columns: repeat(5, 1fr);
-  }
 
+#hamburgerMenu {
+  margin-left: 20px;
+  text-align: center;
+  height: 45px;
+  cursor: pointer;   
+}
+#weldasLogo {
+  margin-left: 70px;
+  text-align: center;
+  height: 35px;
+  cursor: pointer;   
+}
 #accountIcon
 {
-  width: 40px;
-  height: 40px;
+  margin-left: 30px;
+  text-align: center;  
+  height: 35px;
+  cursor: pointer;   
 
 }
-
 #winkelwagenIcon
 {
-  width: 40px;
-  height: 40px;
-
+  margin-left: 20px;
+  text-align: center;
+  height: 35px;
+  cursor: pointer;   
 }
 
-  #navBar li {
-    margin: 10px;
-    text-align: center;
-    display: grid;
-    grid-template-rows: repeat(1, 1fr);
-    gap: 6rem;
-  }
+#navBar li a {
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+}
 
-  
-  
-  #navBar li a {
-    color: rgb(0, 0, 0);
-    text-decoration: underline;
-  }
-  
-  #navBar :hover {
-    color: #8b8b8b;
-  }
-  
-  ul {
-    text-align: center;
-  }
+#navBar li:hover a {
+  color: #8b8b8b;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} 
+
+
