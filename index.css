@@ -1,3 +1,10 @@
+body
+{
+
+  height:2000px
+}
+
+
 #navBar {
   position: fixed;
   top: 0;
@@ -8,7 +15,7 @@
 
 #navBar nav {
   display: flex;
-  justify-content: space-between;
+  justify-content:center;
   align-items: center;
   padding-top: 25px ;
   padding-bottom: 25px ;
@@ -92,6 +99,12 @@ ul {
 
 #vergrootglas
 {
-position:absolute;
-left: 23rem;
+  position: absolute;
+margin-left: 23rem;
+}
+
+#indexFoto
+{
+  width: 100vw;
+  margin: 8.45rem auto auto -0.5rem;
 }
