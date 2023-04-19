@@ -1,68 +1,113 @@
-* {
-    padding: 0%;
-    margin: 0%;
+body {
+
+    height: 2000px
 }
 
-.navbar {
-    display: flex;
-    align-items: center;
+
+#navBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     background-color: #FFE100;
-    color: #fff;
+}
+
+#navBar nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#hamburgerMenu {
+    margin-left: -2px;
+    text-align: center;
+    height: 30px;
+    cursor: pointer;
+}
+
+#weldasLogo {
+    margin-left: 70px;
+    text-align: center;
+    height: 35px;
+    cursor: pointer;
+}
+
+#accountIcon {
+    margin-left: 30px;
+    text-align: center;
+    height: 35px;
+    cursor: pointer;
+
+}
+
+#winkelwagenIcon {
+    margin-left: 20px;
+    text-align: center;
+    height: 35px;
+    cursor: pointer;
+}
+
+#navBar li a {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+#navBar li:hover a {
+    color: #8b8b8b;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#header {
+    background-color: #1E3A5F;
+    color: white;
     padding: 10px;
-    height: 100px;
+    margin-top: 5.57rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
 }
 
-#WeldasLogo {
-    margin-left: 21%;
-    width: 150px;
-}
-
-#menuicon {
-    margin-left: 0%;
-    width: 40px;
-}
-
-#winkelwagen {
-    margin-left: 18px;
-    width: 40px;
-}
-
-#account {
-    margin-left: 5%;
-    width: 40px;
-}
-
-.searchbar {
+#zoekbalk {
     display: flex;
     align-items: center;
-    background-color: #0A264B;
-    color: #fff;
-    padding: 10px;
-    height: 50px;
+    justify-content: space-between;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
-.textbox {
-    background-color: #fff;
-    border-radius: 15px;
-    width: 380px;
-    display: flex;
-}
-
-.textbox p {
-    margin-bottom: 0;
+#zoekbalk input[type="text"] {
+    width: 100vh;
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
     font-size: 16px;
-    line-height: 2.5;
-}
-
-#zoeken {
-    color: black;
-    font-family: 'cabin';
-    margin-left: 20px;
 }
 
 #vergrootglas {
-    margin-left: 250px;
-    width: 30px;
-    height: 30px;
-    margin-top: 5px;
+    position: absolute;
+    margin-left: 23rem;
+}
+
+#indexFoto {
+    width: 100vw;
+    margin: 8.45rem auto auto -0.5rem;
+}
+
+#bannerhandschoenen
+{
+  width: 100vw;
+  margin: 8.45rem auto auto -0.5rem;
 }
