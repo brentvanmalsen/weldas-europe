@@ -3,6 +3,21 @@ body {
     height: 2000px
 }
 
+@font-face {
+
+    font-family: cabin-regular;
+
+    src: url('fonts/Cabin/Cabin-Regular.ttf');
+
+}
+
+@font-face {
+
+    font-family: cabin-bold;
+
+    src: url('fonts/Cabin/Cabin-Bold.ttf');
+
+}
 
 #navBar {
     position: fixed;
@@ -22,14 +37,15 @@ body {
 
 
 #hamburgerMenu {
-    margin-left: -2px;
+    margin-left: 1px;
     text-align: center;
     height: 30px;
     cursor: pointer;
 }
 
 #weldasLogo {
-    margin-left: 70px;
+    margin-left: 84px;
+    margin-right: 5px;
     text-align: center;
     height: 35px;
     cursor: pointer;
@@ -85,7 +101,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 600px;
+    max-width: 390px;
     margin: 0 auto;
 }
 
@@ -99,25 +115,37 @@ ul {
 
 #vergrootglas {
     position: absolute;
-    margin-left: 23rem;
-}
-
-#indexFoto {
-    width: 100vw;
-    margin: 8.45rem auto auto -0.5rem;
+    margin-left: 361px;
 }
 
 #terug {
-    width: 100vw;
+    font-family: cabin-regular;
     margin: 8.45rem auto auto -0.5rem;
     color: black;
-    background-color: #4CAF50;
+    background-color: #ffffff;
     border: none;
-    color: white;
-    padding: 15px 32px;
+    color: black;
+    padding: 13px 12px 10px 15px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 15px;
     cursor: pointer;
+}
+
+#terugpijltje {
+    height: 11px;
+    margin-bottom: -0.0150rem;
+    margin-right: 2px;
+}
+
+.lijn {
+    margin-top: 1%;
+    FONT-WEIGHT: 500;
+    width: 100vw;
+    height: 4px;
+    left: 0px;
+    top: 159px;
+    background: rgba(217, 217, 217, 0.5);
+    margin-left: -2vw;
 }
