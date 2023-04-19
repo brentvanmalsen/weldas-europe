@@ -37,14 +37,15 @@ body {
 
 
 #hamburgerMenu {
-    margin-left: 1px;
+    margin-left: 25px;
+    margin-right: -5px;
     text-align: center;
     height: 30px;
     cursor: pointer;
 }
 
 #weldasLogo {
-    margin-left: 84px;
+    margin-left: 74px;
     margin-right: 5px;
     text-align: center;
     height: 35px;
@@ -52,15 +53,16 @@ body {
 }
 
 #accountIcon {
-    margin-left: 30px;
+    margin-left: 17px;
+    margin-right: 6px;
     text-align: center;
     height: 35px;
     cursor: pointer;
-
 }
 
 #winkelwagenIcon {
-    margin-left: 20px;
+    margin-left: 15px;
+    margin-right: 23px;
     text-align: center;
     height: 35px;
     cursor: pointer;
@@ -101,7 +103,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 390px;
+    max-width: 380px;
     margin: 0 auto;
 }
 
@@ -115,7 +117,7 @@ ul {
 
 #vergrootglas {
     position: absolute;
-    margin-left: 361px;
+    margin-left: 349px;
 }
 
 #terug {
@@ -148,4 +150,60 @@ ul {
     top: 159px;
     background: rgba(217, 217, 217, 0.5);
     margin-left: -2vw;
+}
+
+.paginatitel {
+    font-family: cabin-regular;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    color: #000;
+    letter-spacing: 1px;
+    margin-top: 11px;
+    padding: 0 10px;
+}
+
+.handschoenen {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 41px;
+    max-height: 236px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide-vorige {
+    transform: translateX(-100%);
+}
+
+.slide-volgende {
+    transform: translateX(100%);
+}
+
+.vorige,
+.volgende {
+    position: absolute;
+    top: 41%;
+    font-size: 24px;
+    color: #333;
+    z-index: 1;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+
+.vorige {
+    left: 35px;
+    width: 44px;
+    height: 60px;
+    background-image: url("images/terugpijltje.png");
+}
+
+.volgende {
+    right: 35px;
+    width: 44px;
+    height: 60px;
+    background-image: url("images/volgendepijltje.png");
 }
