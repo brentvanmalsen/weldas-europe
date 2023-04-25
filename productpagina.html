@@ -12,26 +12,27 @@
 </head>
 
 <body>
-  <div class="container">
+  <header>>
     <div id="navBar">
       <nav>
-        <ul>
+        <ul class="mainnav">
           <li><a href="#"><img id="hamburgerMenu" src="images/hamburger-menu.svg" alt=""></a></li>
-          <li><a href="#"> <img id="weldasLogo" src="/images/weldas logo.png" alt="portfolio logo"></a></li>
-          <li><a href="#"><img id="accountIcon" src="/images/account icon.png" alt=""></a></li>
-          <li><a href="#"><img id="winkelwagenIcon" src="/images/winkelwagen.svg" alt=""></a></li>
+          <li><a href="#"> <img id="weldasLogo" src="images/weldas logo.png" alt="portfolio logo"></a></li>
+          <li><a href="#"><img id="accountIcon" src="images/account icon.png" alt=""></a></li>
+          <li><a href="#"><img id="winkelwagenIcon" src="images/winkelwagen.svg" alt=""></a></li>
         </ul>
       </nav>
     </div>
-  </div>
-  <div id="header">
-    <div id="zoekbalk">
-      <input type="text" placeholder="Zoeken..."> <img id="vergrootglas" src="/images/vergrootglas.png" alt="">
     </div>
-  </div>
+    <div id="zoeken">
+      <div id="zoekbalk">
+        <input type="text" placeholder="Zoeken..."> <img id="vergrootglas" src="images/vergrootglas.png" alt="">
+      </div>
+    </div>
+  </header>
 
   <button id="terug"> <img id="terugpijltje" src="images/terugpijltje.png" alt=""> Handschoenen </button>
-  <div class="lijn"></div>
+  <div id="lijn"></div>
   <p class="paginatitel">Originele "BUCKTAN WIJD MODEL" 10-2000</p>
   <!-- <img class="handschoenen" src="images/handschoenen.png" alt="Product Image"> -->
 
@@ -39,8 +40,104 @@
     <img class="handschoenen" src="images/handschoenen.png" alt="Product afbeelding">
     <a class="vorige" onclick="changeSlide(-1)"></a>
     <a class="volgende" onclick="changeSlide(1)"></a>
+    <div class="small-images">
+      <img id="mini1" src="images/handschoenen2.png" alt="Kleine afbeelding 2">
+      <img id="mini2" src="images/handschoenen3klein.png" alt="Kleine afbeelding 3">
+      <img id="mini3" src="images/handschoenen4klein.png" alt="Kleine afbeelding 4">
+    </div>
   </div>
-  
+
+  <div id="lijn2"></div>
+  <p class="prijs">€15,70 (incl.btw)</p>
+
+  <div class="morgenbezorgdtotaal">
+    <img class="checkdik" src="images/checkdik.png">
+    <p class="morgenbezorgd">Morgen bezorgd</p>
+  </div>
+
+  <ul class="voordelentotaal">
+    <li>
+      <img class="checkdun" src="images/checkdun.png">
+      <span><span class="blue">Gratis</span> ruilen binnen 30 dagen</span>
+    </li>
+    <li>
+      <img class="checkdun" src="images/checkdun.png">
+      <span>Je krijgt <span class="blue">2 jaar</span> garantie op je product</span>
+    </li>
+    <li>
+      <img class="checkdun" src="images/checkdun.png">
+      <span>Voor <span class="blue">23:59</span> besteld, morgen bezorgd</span>
+    </li>
+  </ul>
+
+  <div class="specificatiestotaal">
+    <p class="specificaties">Specificaties</p>
+    <img class="beneden" src="images/benedenpijltje.png">
+  </div>
+
+  <ul class="kenmerken">
+    <li>
+      <img class="min" src="images/min.png">
+      <span>A-kwaliteit split rundleer</span>
+    </li>
+    <li>
+      <img class="min" src="images/min.png">
+      <span>COMFOflex® gevoerde hand</span>
+    </li>
+    <li>
+      <img class="min" src="images/min.png">
+      <span>Katoen gevoerde kap</span>
+    </li>
+    <li>
+      <img class="min" src="images/min.png">
+      <span>Wijd model</span>
+    </li>
+  </ul>
+
+  <div id="lijn3"></div>
+  <h2 class="vragenproduct">Heeft u nog vragen over dit product?</h2>
+  <p class="vragenproducttekst">Heeft u nog eventuele vragen, neem dan contact op met de klantenservice.</p>
+  <button class="klantenservice-button">Klantenservice</button>
+
+  <h2 class="certificering">Certificering</h2>
+  <p class="certificering-tekst">EN 12477 (2001+A1:2005) TYPE A</p>
+  <p class="certificering-tekst">TÜV BP 60153044 0002</p>
+  <p class="certificering-tekst">TÜV 60399937 003 Kat II</p>
+
+  <div class="image-container">
+    <img src="images/keurmerk1.png" alt="image 1">
+    <img src="images/keurmerk2.png" alt="image 2">
+    <img src="images/keurmerk3.png" alt="image 3">
+    <img src="images/keurmerk4.png" alt="image 4">
+    <img src="images/keurmerk5.png" alt="image 5">
+  </div>
+
+  <h2 class="tips">Tips voor het gebruik</h2>
+  <iframe class="YouTube" src="https://www.youtube.com/embed/EW94IQmgx9M" title="YouTube video player" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen></iframe>
+
+  <div id="lijn4"></div>
+  <h2 class="categorieën">Categorieën</h2>
+  <div id="scrollCategorieën">
+
+    <div class="tekst"> <img class="imgCategorie" src="images/categorie1.png" alt=""> Handschoenen
+    </div>
+    <div class="tekst"> <img class="imgCategorie" src="images/categorie2.png" alt=""> Kleding</div>
+    <div class="tekst"> <img class="imgCategorie" src="images/categorie3.png" alt="">
+      Hoofdbescherming</div>
+    <div class="tekst"> <img class="imgCategorie" src="images/categorie4.png" alt=""> Accessoires
+    </div>
+    <div class="tekst"> <img class="imgCategorie" src="images/categorie5.png" alt=""> Lava shield
+    </div>
+  </div>
+  </div>
+
+  <div class="yellow-space">
+    <h1>Contact</h1>
+    <h2><b>Tel.: </b><span style="color:blue;">+31 164 274650</span></h2>
+  </div>
+
 
 
 
