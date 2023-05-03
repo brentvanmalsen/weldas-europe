@@ -1,6 +1,6 @@
 body {
     /* height: 100vh; */
-    height: 3000px;
+    height: 2354px;
 }
 
 @font-face {
@@ -480,6 +480,9 @@ ul.voordelentotaal li span {
     height: 361px;
     width: 100vw;
     margin-left: -2vw;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    margin-top: 3%;
 }
 
 .yellow-space h1 {
@@ -502,4 +505,76 @@ ul.voordelentotaal li span {
     text-decoration-style: solid;
     text-decoration-thickness: 1px;
     font-weight: normal;
+}
+
+.yellow-space p {
+    text-align: left;
+    font-family: 'roboto-regular';
+    font-size: 15px;
+    position: relative;
+    top: 32px;
+    padding: 7px;
+    font-weight: normal;
+    margin-left: 26%;
+}
+
+.yellow-space address {
+    text-align: left;
+    font-family: 'roboto-regular';
+    font-size: 15px;
+    position: relative;
+    top: 32px;
+    padding: 7px;
+    font-weight: normal;
+    margin-left: 26%;
+}
+
+.fixed-white-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 131px;
+    background-color: white;
+    z-index: 1;
+    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.yellow-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 236px;
+    margin-top: -5.5%;
+    height: 54px;
+    margin-left: -26%;
+    background-color: #FFE100;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    padding: 0 15px;
+}
+
+.yellow-button .cart-icon {
+    width: 24px;
+    margin-right: 10px;
+}
+
+.yellow-button span {
+    display: flex;
+    align-items: center;
+}
+
+.likeproduct {
+    position: absolute;
+    top: 26px;
+    right: 34px;
+    width: 50px;
+    height: 54px;
 }
