@@ -1,38 +1,28 @@
 body {
-    /* height: 100vh; */
-    height: 2354px;
+    height: 2335px;
 }
 
 @font-face {
-
     font-family: cabin-regular;
-
-    src: url('fonts/Cabin/Cabin-Regular.ttf');
-
+    src: url("fonts/Cabin/Cabin-Regular.ttf");
 }
 
 @font-face {
-
     font-family: cabin-bold;
-
-    src: url('fonts/Cabin/Cabin-Bold.ttf');
-
+    src: url("fonts/Cabin/Cabin-Bold.ttf");
 }
 
 @font-face {
-
     font-family: roboto-regular;
-
-    src: url('fonts/Roboto/Roboto-Regular.ttf');
-
+    src: url("fonts/Roboto/Roboto-Regular.ttf");
 }
 
 #navBar {
     position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    background-color: #FFE100;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: rgb(255, 225, 0);
     z-index: 2;
 }
 
@@ -43,7 +33,6 @@ body {
     padding-top: 25px;
     padding-bottom: 25px;
 }
-
 
 #hamburgerMenu {
     margin-left: 25px;
@@ -83,28 +72,27 @@ body {
 }
 
 #navBar li:hover a {
-    color: #8b8b8b;
+    color: rgb(139, 139, 139);
 }
 
 .mainnav {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-
 #zoeken {
-    background-color: #1E3A5F;
+    background-color: rgb(30, 58, 95);
     color: white;
     padding: 10px;
     margin-top: 5.57rem;
     position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
+    top: 0px;
+    left: 0px;
+    right: 0px;
     z-index: 2;
 }
 
@@ -113,7 +101,7 @@ body {
     align-items: center;
     justify-content: space-between;
     max-width: 380px;
-    margin: 0 auto;
+    margin: 0px auto;
 }
 
 #zoekbalk input[type="text"] {
@@ -131,8 +119,8 @@ body {
 
 #terug {
     font-family: cabin-regular;
-    margin: 7.449999999999999rem auto auto -0.5rem;
-    background-color: #ffffff;
+    margin: 7.45rem auto auto -0.5rem;
+    background-color: rgb(255, 255, 255);
     border: none;
     color: black;
     padding: 13px 12px 10px 15px;
@@ -145,13 +133,13 @@ body {
 
 #terugpijltje {
     height: 11px;
-    margin-bottom: -0.0150rem;
+    margin-bottom: -0.015rem;
     margin-right: 2px;
 }
 
 #lijn {
     margin-top: 1%;
-    FONT-WEIGHT: 500;
+    font-weight: 500;
     width: 100vw;
     height: 4px;
     left: 0px;
@@ -165,25 +153,24 @@ body {
     font-size: 17px;
     font-weight: bold;
     text-align: center;
-    color: #000;
+    color: rgb(0, 0, 0);
     letter-spacing: 1px;
     margin-top: 11px;
-    padding: 0 10px;
+    padding: 0px 10px;
 }
 
 .slider-container {
     position: relative;
-    /* width: 90%; */
 }
 
 .handschoenen {
     display: block;
     max-width: 100%;
     height: auto;
-    margin: 0 auto;
+    margin: 0px auto;
     padding-top: 14px;
     max-height: 236px;
-    transition: transform 0.5s ease-in-out;
+    transition: transform 0.5s ease-in-out 0s;
 }
 
 .slide-vorige {
@@ -199,7 +186,7 @@ body {
     position: absolute;
     top: 31%;
     font-size: 24px;
-    color: #333;
+    color: rgb(51, 51, 51);
     z-index: 1;
     cursor: pointer;
     background-repeat: no-repeat;
@@ -226,12 +213,11 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 0px 29px;
-    /* add 20px padding to left and right */
     margin-top: 5%;
 }
 
 .small-images img {
-    border: 1px solid #000000;
+    border: 1px solid rgb(0, 0, 0);
     border-radius: 5%;
 }
 
@@ -252,7 +238,7 @@ body {
 
 #lijn2 {
     margin-top: 5%;
-    FONT-WEIGHT: 500;
+    font-weight: 500;
     width: 100vw;
     height: 4px;
     left: 0px;
@@ -262,21 +248,21 @@ body {
 }
 
 .prijs {
-    font-family: 'roboto-regular';
+    font-family: roboto-regular;
     font-size: 22px;
     margin-right: 47%;
     font-weight: bold;
     text-align: center;
-    color: #000;
+    color: rgb(0, 0, 0);
     letter-spacing: 1px;
     margin-top: 11px;
     padding: 8px 9px;
 }
 
 .morgenbezorgdtotaal {
-    font-family: 'roboto-regular';
+    font-family: roboto-regular;
     font-weight: bold;
-    color: #0A264B;
+    color: rgb(10, 38, 75);
     margin-top: -9.4%;
 }
 
@@ -296,9 +282,9 @@ body {
 
 .voordelentotaal {
     list-style-type: none;
-    font-family: 'roboto-regular';
-    margin: 0;
-    padding: 0;
+    font-family: roboto-regular;
+    margin: 0px;
+    padding: 0px;
 }
 
 ul.voordelentotaal li span {
@@ -313,14 +299,14 @@ ul.voordelentotaal li span {
 }
 
 .blue {
-    color: #009FDF;
+    color: rgb(0, 159, 223);
     font-weight: bold;
 }
 
 .specificatiestotaal {
-    font-family: 'roboto-regular';
+    font-family: roboto-regular;
     font-weight: bold;
-    color: #0A264B;
+    color: rgb(10, 38, 75);
     margin-top: 4.5%;
     margin-left: 3.7%;
 }
@@ -341,10 +327,10 @@ ul.voordelentotaal li span {
 
 .kenmerken {
     list-style-type: none;
-    font-family: 'roboto-regular';
+    font-family: roboto-regular;
     font-size: 17px;
     margin-top: -1.5%;
-    padding: 0;
+    padding: 0px;
 }
 
 .min {
@@ -356,7 +342,7 @@ ul.voordelentotaal li span {
 
 #lijn3 {
     margin-top: 5%;
-    FONT-WEIGHT: 500;
+    font-weight: 500;
     width: 100vw;
     height: 4px;
     left: 0px;
@@ -366,21 +352,21 @@ ul.voordelentotaal li span {
 }
 
 .vragenproduct {
-    font-family: 'roboto-regular';
+    font-family: roboto-regular;
     font-size: 19px;
     font-weight: bold;
     margin-left: 3.7%;
 }
 
 .vragenproducttekst {
-    font-family: 'roboto-regular';
+    font-family: roboto-regular;
     font-size: 15px;
     margin-left: 3.7%;
 }
 
 .klantenservice-button {
-    background-color: #0A264B;
-    color: #fff;
+    background-color: rgb(10, 38, 75);
+    color: rgb(255, 255, 255);
     font-weight: bold;
     text-align: center;
     display: block;
@@ -392,7 +378,7 @@ ul.voordelentotaal li span {
 }
 
 .certificering {
-    font-family: 'roboto-regular';
+    font-family: roboto-regular;
     font-size: 19px;
     font-weight: bold;
     margin-left: 3.7%;
@@ -400,21 +386,20 @@ ul.voordelentotaal li span {
 
 .certificering-tekst {
     margin-left: 3.7%;
-    font-family: 'cabin-regular';
+    font-family: cabin-regular;
     font-size: 15px;
-    color: #888888;
+    color: rgb(136, 136, 136);
     line-height: 0.3;
 }
 
 .image-container img {
     width: 50px;
     height: 50px;
-    margin: 10px;
-    margin-left: 3.7%;
+    margin: 10px 10px 10px 3.7%;
 }
 
 .tips {
-    font-family: 'roboto-regular';
+    font-family: roboto-regular;
     font-size: 19px;
     font-weight: bold;
     margin-left: 3.7%;
@@ -423,14 +408,14 @@ ul.voordelentotaal li span {
 
 .YouTube {
     display: block;
-    margin: 0 auto;
+    margin: 0px auto;
     width: 368px;
     height: 206px;
 }
 
 #lijn4 {
     margin-top: 6%;
-    FONT-WEIGHT: 500;
+    font-weight: 500;
     width: 100vw;
     height: 4px;
     background: rgba(217, 217, 217, 0.5);
@@ -438,7 +423,7 @@ ul.voordelentotaal li span {
 }
 
 .categorieën {
-    font-family: 'roboto-regular';
+    font-family: roboto-regular;
     font-size: 19px;
     font-weight: bold;
     margin-left: 3.7%;
@@ -446,48 +431,45 @@ ul.voordelentotaal li span {
 }
 
 #scrollCategorieën {
-    margin: 1.5rem 0px 0px 0px;
+    margin: 1.5rem 0px 0px;
     border: none;
     height: 200px;
     overflow-x: auto;
     display: flex;
 }
 
-#scrollCategorieën::-webkit-scrollbar {
-    width: 20;
-}
 
 #scrollCategorieën .tekst {
     min-width: 8.75rem;
     height: 10.625rem;
-    margin: 0 10px 0 10px;
+    margin: 0px 10px;
     text-align: center;
     font-family: cabin-regular;
-    color: #0A264B;
-    border: 0.1px solid #B0B0B0;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    color: rgb(10, 38, 75);
+    border: 0.1px solid rgb(176, 176, 176);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 4px;
     cursor: pointer;
 }
 
 #scrollCategorieën .imgCategorie {
     width: 8rem;
     height: 8rem;
-    margin: .4688rem .4688rem 0rem .4688rem;
+    margin: 0.4688rem 0.4688rem 0rem;
 }
 
 .yellow-space {
-    background-color: #FFE100;
+    background-color: rgb(255, 225, 0);
     height: 361px;
     width: 100vw;
     margin-left: -2vw;
-    border-top: 1px solid #000000;
-    border-bottom: 1px solid #000000;
+    border-top: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(0, 0, 0);
     margin-top: 3%;
 }
 
 .yellow-space h1 {
     text-align: center;
-    font-family: 'roboto-regular';
+    font-family: roboto-regular;
     font-size: 19px;
     font-weight: bold;
     position: relative;
@@ -496,20 +478,17 @@ ul.voordelentotaal li span {
 
 .yellow-space h2 {
     text-align: center;
-    font-family: 'roboto-regular';
+    font-family: roboto-regular;
     font-size: 19px;
-    font-weight: lighter;
     position: relative;
     top: 20px;
-    text-decoration: underline;
-    text-decoration-style: solid;
-    text-decoration-thickness: 1px;
+    text-decoration: underline 1px solid;
     font-weight: normal;
 }
 
 .yellow-space p {
     text-align: left;
-    font-family: 'roboto-regular';
+    font-family: roboto-regular;
     font-size: 15px;
     position: relative;
     top: 32px;
@@ -520,7 +499,7 @@ ul.voordelentotaal li span {
 
 .yellow-space address {
     text-align: left;
-    font-family: 'roboto-regular';
+    font-family: roboto-regular;
     font-size: 15px;
     position: relative;
     top: 32px;
@@ -531,13 +510,13 @@ ul.voordelentotaal li span {
 
 .fixed-white-bar {
     position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 131px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 110px;
     background-color: white;
     z-index: 1;
-    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px -5px 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -547,18 +526,17 @@ ul.voordelentotaal li span {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 236px;
-    margin-top: -5.5%;
-    height: 54px;
+    width: 217px;
+    height: 57px;
     margin-left: -26%;
-    background-color: #FFE100;
+    background-color: rgb(255, 225, 0);
     border: none;
     border-radius: 5px;
     font-size: 18px;
     font-weight: bold;
     text-align: center;
     cursor: pointer;
-    padding: 0 15px;
+    padding: 0px 15px;
 }
 
 .yellow-button .cart-icon {
@@ -573,8 +551,157 @@ ul.voordelentotaal li span {
 
 .likeproduct {
     position: absolute;
-    top: 26px;
-    right: 34px;
-    width: 50px;
-    height: 54px;
+    top: 25px;
+    right: 46px;
+    width: 56px;
+    height: 58px;
+}
+
+@media only screen and (max-width: 991px) {
+    #navBarDesktop {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #navBar {
+        display: none;
+    }
+
+    #zoeken {
+        display: none;
+    }
+
+    #navBarDesktop {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        background-color: rgb(255, 225, 0);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        height: 25px;
+    }
+
+    .logo-container img {
+        height: 40px;
+        margin-top: 2%;
+    }
+
+    form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 317px;
+        margin: auto 154px auto auto;
+        height: 43px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+    }
+
+    input[type="text"] {
+        border: none;
+        outline: none;
+        padding: 0px 20px;
+        font-size: 12px;
+        font-family: roboto-regular;
+        flex: 1 1 0%;
+    }
+
+    button[type="submit"] {
+        border: none;
+        background-color: transparent;
+        font-size: 20px;
+        color: rgb(85, 85, 85);
+        cursor: pointer;
+    }
+
+    .icon-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 20px;
+        margin-right: 14px;
+    }
+
+    .icon-container img {
+        height: 20px;
+    }
+
+    .icons-container {
+        display: flex;
+        align-items: center;
+    }
+
+    .icons-container img {
+        height: 27px;
+        margin-left: 20px;
+        margin-top: 11%;
+    }
+
+    #subNavbar {
+        position: fixed;
+        left: 0px;
+        font-family: roboto-regular;
+        top: 65px;
+        width: 100%;
+        height: 50px;
+        background-color: rgb(10, 38, 75);
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    #subNavbar a {
+        display: inline-block;
+        padding: 15px 33px;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+
+    #subNavbar a:hover {
+        text-decoration: underline 3px rgb(255, 255, 255);
+        text-underline-offset: 17px;
+    }
+
+    .ruimtetussen {
+        display: flex;
+        justify-content: space-between;
+        flex: 2 1 0%;
+    }
+
+    #terug {
+        font-family: cabin-regular;
+        margin: 92.45px auto auto -0.5rem;
+        background-color: rgb(255, 255, 255);
+        border: none;
+        color: black;
+        padding: 13px 12px 10px 15px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    #terugpijltje {
+        height: 11px;
+        margin-bottom: -0.015rem;
+        margin-right: 2px;
+    }
+
+    #lijn {
+        margin-top: 0.3%;
+        font-weight: 500;
+        width: 102vw;
+        height: 4px;
+        left: 0px;
+        top: 159px;
+        background: rgba(217, 217, 217, 0.5);
+        /* margin-left: -2vw; */
+    }
 }
