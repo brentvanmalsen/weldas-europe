@@ -342,7 +342,7 @@ ul.voordelentotaal li span {
 }
 
 #lijn3 {
-    margin-top: 5%;
+    margin-top: 28px;
     font-weight: 500;
     width: 100vw;
     height: 4px;
@@ -362,6 +362,7 @@ ul.voordelentotaal li span {
     font-family: roboto-regular;
     font-size: 15px;
     margin-left: 3.7%;
+    max-width: 384px;
 }
 
 .klantenservice-button {
@@ -602,6 +603,34 @@ ul.voordelentotaal li span {
     .mindesktop {
         display: none;
     }
+
+    .vragenproductdesktop {
+        display: none;
+    }
+
+    .vragenproducttekstdesktop {
+        display: none;
+    }
+
+    #lijn3desktop {
+        display: none;
+    }
+
+    #lijn4desktop {
+        display: none;
+    }
+
+    .certificeringdesktop {
+        display: none;
+    }
+
+    .certificering-tekstdesktop {
+        display: none;
+    }
+
+    .image-containerdesktop {
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 992px) {
@@ -657,6 +686,29 @@ ul.voordelentotaal li span {
         display: none;
     }
 
+    .vragenproduct {
+        display: none;
+    }
+
+    .vragenproducttekst {
+        display: none;
+    }
+
+    #lijn3 {
+        display: none;
+    }
+
+    .certificering {
+        display: none;
+    }
+
+    .certificering-tekst {
+        display: none;
+    }
+
+    .image-container {
+        display: none;
+    }
 
     .prijsdesktop {
         font-family: roboto-regular;
@@ -670,7 +722,7 @@ ul.voordelentotaal li span {
         padding: 8px 9px;
         float: left;
         clear: both;
-        margin-left: 499px;
+        margin-left: 438px;
     }
 
     .morgenbezorgddesktop {
@@ -695,17 +747,15 @@ ul.voordelentotaal li span {
         margin-top: 65px;
     }
 
-
     .wrappervoordelen {
         margin-left: 26.4%;
-        /* adjust this value as needed */
     }
 
     .voordelentotaaldesktop {
         list-style-type: none;
         font-family: roboto-regular;
-        margin: 0;
-        padding: 0;
+        margin: 0px;
+        padding: 0px;
     }
 
     .checkdundesktop {
@@ -722,7 +772,6 @@ ul.voordelentotaal li span {
         margin-left: 54.7%;
         margin-bottom: 1%;
         margin-top: -151px;
-        /* adjust this value as needed */
     }
 
     .specificatiesdesktop {
@@ -731,7 +780,6 @@ ul.voordelentotaal li span {
         margin-left: 5px;
         font-size: 19px;
     }
-
 
     .benedendesktop {
         display: inline-block;
@@ -759,8 +807,6 @@ ul.voordelentotaal li span {
         margin-left: 53%;
         margin-top: 23px;
     }
-
-
 
     #navBarDesktop {
         position: fixed;
@@ -910,7 +956,7 @@ ul.voordelentotaal li span {
     }
 
     #lijn2 {
-        margin-top: 21.7%;
+        margin-top: 22.7%;
         width: 100vw;
     }
 
@@ -950,6 +996,7 @@ ul.voordelentotaal li span {
         position: relative;
         display: flex;
         top: 0px;
+        margin-left: 527px;
         width: 56px;
         height: 58px;
     }
@@ -960,7 +1007,8 @@ ul.voordelentotaal li span {
         justify-content: center;
         width: 217px;
         height: 57px;
-        margin-left: -26%;
+        margin-right: -458px;
+        margin-left: 37px;
         background-color: rgb(255, 225, 0);
         border: none;
         border-radius: 5px;
@@ -983,6 +1031,107 @@ ul.voordelentotaal li span {
         display: inline-block;
         font-size: 15px;
         cursor: pointer;
+    }
+
+    .vragenproductdesktop {
+        font-family: roboto-regular;
+        font-size: 19px;
+        font-weight: bold;
+        margin-left: 452px;
+        margin-top: 43px;
+        margin-bottom: 27px;
+    }
+
+    .vragenproducttekstdesktop {
+        margin-left: 451px;
+        max-width: 368px;
+        font-family: roboto-regular;
+        font-size: 15px;
+        margin-bottom: 35px;
+    }
+
+    #lijn3desktop {
+        margin-top: 49px;
+        font-weight: 500;
+        width: 100vw;
+        height: 4px;
+        left: 0px;
+        top: 159px;
+        background: rgba(217, 217, 217, 0.5);
+    }
+
+    .klantenservice-button {
+        background-color: rgb(10, 38, 75);
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        text-align: center;
+        display: block;
+        margin: 72px auto 0;
+        padding: 20px 108px;
+        border: none;
+        border-radius: 10px;
+        font-size: 21px;
+    }
+
+    #lijn4desktop {
+        margin-top: 49px;
+        font-weight: 500;
+        width: 100vw;
+        height: 4px;
+        left: 0px;
+        top: 159px;
+        background: rgba(217, 217, 217, 0.5);
+    }
+
+    .certificeringdesktop {
+        font-family: roboto-regular;
+        font-size: 19px;
+        font-weight: bold;
+        margin-left: 9.7%;
+        margin-top: 43px;
+    }
+
+    .certificering-tekstdesktop {
+        margin-left: 9.7%;
+        font-family: cabin-regular;
+        font-size: 15px;
+        color: rgb(136, 136, 136);
+        line-height: 0.3;
+    }
+
+    .image-containerdesktop {
+        margin-left: 449px;
+        margin-top: -85px;
+    }
+
+    .image-containerdesktop img {
+        width: 50px;
+        height: 50px;
+        margin: 10px 138px 10px 15px;
+    }
+
+    .YouTube {
+        height: 229px;
+        width: 435px;
+        margin-left: 912px;
+        margin-top: -29px;
+    }
+
+    .tips {
+        font-family: roboto-regular;
+        font-size: 19px;
+        font-weight: bold;
+        margin-left: 9.5%;
+        margin-top: 95px;
+        margin-bottom: 0%;
+    }
+
+    .tips-text {
+        font-family: roboto-regular;
+        font-size: 16px;
+        margin-left: 9.5%;
+        max-width: 497px;
+        margin-top: -177px;
     }
 
 }
