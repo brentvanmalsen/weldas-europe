@@ -45,6 +45,11 @@ body {
     cursor: pointer;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 #weldasLogo {
     margin-left: 74px;
     margin-right: 5px;
@@ -990,7 +995,7 @@ ul.voordelentotaal li span {
     }
 
     #lijn2 {
-        margin-top: 22.7%;
+        margin-top: 23.7%;
         width: 100vw;
     }
 
