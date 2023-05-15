@@ -201,6 +201,7 @@ body {
     width: 44px;
     height: 60px;
     background-image: url("images/terugpijltje.png");
+    z-index: 0;
 }
 
 .volgende {
@@ -208,6 +209,7 @@ body {
     width: 44px;
     height: 60px;
     background-image: url("images/volgendepijltje.png");
+    z-index: 0;
 }
 
 .small-images {
@@ -631,6 +633,26 @@ ul.voordelentotaal li span {
     .image-containerdesktop {
         display: none;
     }
+
+    .tips-text {
+        display: none;
+    }
+
+    .categorieën-containerdesktop {
+        display: none;
+    }
+
+    .scrollCategorieëndesktop {
+        display: none;
+    }
+
+    .tekstdesktop {
+        display: none;
+    }
+
+    .imgCategoriedesktop {
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 992px) {
@@ -707,6 +729,18 @@ ul.voordelentotaal li span {
     }
 
     .image-container {
+        display: none;
+    }
+
+    #scrollCategorieën {
+        display: none;
+    }
+
+    .tekst {
+        display: none;
+    }
+
+    .imgCategorie {
         display: none;
     }
 
@@ -1066,7 +1100,7 @@ ul.voordelentotaal li span {
         font-weight: bold;
         text-align: center;
         display: block;
-        margin: 72px auto 0;
+        margin: 72px auto 0px;
         padding: 20px 108px;
         border: none;
         border-radius: 10px;
@@ -1134,4 +1168,121 @@ ul.voordelentotaal li span {
         margin-top: -177px;
     }
 
+    .categorieën {
+        font-family: roboto-regular;
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 698px;
+        margin-bottom: 36px;
+        margin-top: 38px;
+    }
+
+    #scrollCategorieëndesktop {
+        height: 200px;
+        overflow-x: auto;
+        display: flex;
+        gap: 5%;
+        align-items: center;
+        margin-left: 114px;
+    }
+
+    #scrollCategorieën .tekst {
+        min-width: 8.75rem;
+        height: 10.625rem;
+        margin: 0px 10px;
+        text-align: center;
+        font-family: cabin-regular;
+        color: rgb(10, 38, 75);
+        border: 0.1px solid rgb(176, 176, 176);
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 4px;
+        cursor: pointer;
+    }
+
+    #scrollCategorieën .imgCategorie {
+        width: 8rem;
+        height: 8rem;
+        margin: 0.4688rem 0.4688rem 0rem;
+    }
+
+    .categorieën-containerdesktop {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        gap: 30px;
+        width: 97vw;
+    }
+
+    .scrollCategorieëndesktop {
+        height: 200px;
+        overflow-x: auto;
+        display: flex;
+    }
+
+    .tekstdesktop {
+        min-width: 8.75rem;
+        height: 10.625rem;
+        margin: 0px 10px;
+        text-align: center;
+        font-family: cabin-regular;
+        color: rgb(10, 38, 75);
+        border: 0.1px solid rgb(176, 176, 176);
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 4px;
+        cursor: pointer;
+    }
+
+    .imgCategoriedesktop {
+        width: 8rem;
+        height: 8rem;
+        margin: 0.4688rem 0.4688rem 0rem;
+    }
+
+    .yellow-space {
+        background-color: rgb(255, 225, 0);
+        height: 361px;
+        width: 100vw;
+        border-top: 1px solid rgb(0, 0, 0);
+        border-bottom: 1px solid rgb(0, 0, 0);
+        margin-top: 3%;
+    }
+
+    .yellow-space h1 {
+        text-align: center;
+        font-family: roboto-regular;
+        font-size: 19px;
+        font-weight: bold;
+        position: relative;
+        top: 20px;
+    }
+
+    .yellow-space h2 {
+        text-align: center;
+        font-family: roboto-regular;
+        font-size: 19px;
+        position: relative;
+        top: 20px;
+        text-decoration: underline 1px solid;
+        font-weight: normal;
+    }
+
+    .yellow-space p {
+        text-align: left;
+        font-family: roboto-regular;
+        font-size: 15px;
+        position: relative;
+        top: 32px;
+        padding: 7px;
+        font-weight: normal;
+        margin-left: 671px;
+    }
+
+    .yellow-space address {
+        text-align: left;
+        font-family: roboto-regular;
+        font-size: 15px;
+        position: relative;
+        top: 32px;
+        padding: 7px;
+        font-weight: normal;
+        margin-left: 671px;
+    }
 }
