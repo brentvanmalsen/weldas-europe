@@ -1,12 +1,10 @@
-*
-{
-font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 body {
 
-  height: 4000px;
-  /* later veranderen in 100vh*/
+  height: 100vh;
 }
 
 @font-face {
@@ -83,7 +81,7 @@ ul {
   align-items: center;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
@@ -217,13 +215,13 @@ h3 {
   /* position: absolute; */
   font-family: cabin-medium;
   font-size: 15px;
-  margin: 4.0625rem 0rem 0rem 0.625rem;
+  margin: 3.0625rem 0rem 17px 0.625rem;
   color: #0A264B;
   z-index: -1;
 }
 
 #borderLavaBrown {
-  margin: rem 0.625rem 0rem 0.625rem;
+  margin: 0rem 0.625rem 2rem 0.625rem;
   font-family: cabin-regular;
   color: #0A264B;
   border: 0.1px solid #B0B0B0;
@@ -231,6 +229,7 @@ h3 {
   /* gap: 10px; */
   height: 14.8156rem;
   cursor: pointer;
+  /* margin-left: 10px; */
 }
 
 #kledingProduct {
@@ -302,34 +301,37 @@ h3 {
 }
 
 #borderHalsbeschermer {
-  /* margin: 2.5rem 0.625rem 0rem 0.625rem; */
+  margin: 0rem 0.625rem 2rem 0.625rem;
   font-family: cabin-regular;
   color: #0A264B;
   border: 0.1px solid #B0B0B0;
   width: 23.6rem;
   height: 14.8156rem;
   cursor: pointer;
+  margin-left: 10px;
 }
 
 
 #borderEconomyModel {
-  /* margin: 2.5rem 0.625rem 0rem 0.625rem; */
+  margin: 0rem 0.625rem 2rem 0.625rem;
   font-family: cabin-regular;
   color: #0A264B;
   border: 0.1px solid #B0B0B0;
   width: 23.6rem;
   height: 14.8156rem;
   cursor: pointer;
+  /* margin-left: 10px; */
 }
 
 #borderSoftTouch {
-  /* margin: 2.5rem 0.625rem 0rem 0.625rem; */
+  margin: 0rem 0.625rem 2rem 0.625rem;
   font-family: cabin-regular;
   color: #0A264B;
   border: 0.1px solid #B0B0B0;
   width: 23.6rem;
   height: 14.8156rem;
   cursor: pointer;
+  /* margin-left: 10px; */
 }
 
 #winkelwagen-knop {
@@ -520,22 +522,20 @@ h5 {
   text-decoration: none;
 }
 
-#betaalLogos
-{
+#betaalLogos {
   margin: 50px 0px 0px 12px;
 }
 
-#btnVestigingen
-{
+#btnVestigingen {
   display: flex;
   justify-content: center;
   align-items: center;
-  
+
   margin: 30px auto 0px auto;
 
   background-color: #0A264B;
-  color:white;
-  
+  color: white;
+
   border: none;
   border-radius: 3px;
   width: 300px;
@@ -561,6 +561,28 @@ h5 {
   #navBarDesktop {
     display: none;
 
+  }
+
+  #myButton{
+    display: none;
+  }
+
+  #modaltxt
+  {
+    display: none;
+  }
+  #kortingTxt
+  {
+    display: none;
+  }
+
+  .close
+  {
+    display: none;
+  }
+
+  .easteregg {
+    display: none;
   }
 }
 
@@ -686,8 +708,8 @@ h5 {
 
   #indexFoto {
     width: 100vw;
+    height: 630px;
     margin: 6.73rem auto auto -0.5rem;
-
   }
 
   #p1 {
@@ -707,14 +729,14 @@ h5 {
   }
 
   #p1::before {
-      content: "";
+    content: "";
     position: absolute;
     top: -8px;
     left: -8px;
     width: 31rem;
     height: 4.6rem;
     border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.4);   
+    background-color: rgba(0, 0, 0, 0.4);
     /* background-color: red;   */
     z-index: -1;
   }
@@ -740,247 +762,321 @@ h5 {
     cursor: pointer;
   }
 
-h2
-{
-  font-size: 25px;
-  margin: -5rem 0rem 0rem .625rem;
-}
+  h2 {
+    font-size: 25px;
+    margin: -5rem 0rem 0rem .625rem;
+  }
 
-#scrollCategorieën {
-  margin: 1.5rem 0rem 1.5rem 0.625rem;
-  gap: 0rem;
-  height: 35rem;
-  display: grid;
-  grid-gap: 30px;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-}
+  #scrollCategorieën {
+    margin: 1.5rem 0rem 1.5rem 0.625rem;
+    gap: 0rem;
+    height: 35rem;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
 
-#scrollCategorieën .tekst {
-  height: 12rem;
-  margin: 0rem 1rem 1rem 0rem;
-  width: 19rem;
-  font-size: 20px;
-  cursor: pointer;
-  
-}
+  #scrollCategorieën .tekst {
+    height: 12rem;
+    margin: 0rem 1rem 1rem 0rem;
+    width: 19rem;
+    font-size: 20px;
+    cursor: pointer;
 
-#scrollCategorieën .imgCategorie {
-  width: 8rem;
-  height: 8rem;
-  margin: 1rem 10rem 0rem  6rem;
+  }
 
-}
+  #scrollCategorieën .imgCategorie {
+    width: 8rem;
+    height: 8rem;
+    margin: 1rem 10rem 0rem 6rem;
 
-
-
-#scrollCategorieën::-webkit-scrollbar {
-display: none;
-}
-
-h3
-{
-  font-size: 22px;
-  margin: 4rem 0rem 3rem .625rem;
-}
-
-#populaireProducten
-{
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  width: 98vw;
-  height: 100vh;
-  grid-gap: 30px;
-  /* display: block; */
-  margin: auto;
-}
-
-#borderLavaBrown
-{
-  width: 100%;
-  height: 100%;
-}
-
-#borderHalsbeschermer
-{
-  width: 100%;
-  height: 100%;
-}
-
-#borderEconomyModel
-{
-  width: 100%;
-  height: 100%;
-}
-
-#borderSoftTouch
-{
-  width: 100%;
-  height: 100%;
-}
-
-#kledingProduct img
-{
-  width: 12rem;
-  margin: 55px 0px 20px 10px;
-}
-
-#product-info h2
-{
-  margin-top: 3rem;
-  font-size: 1.5rem;
-}
-
-#product-info p1
-{
-  margin: 0.3rem 0rem 0rem 0.6rem;
-  font-size: 1.1rem;
-}
-
-#product-info p2
-{
-  margin: 4.5rem 0rem 0rem 0.6rem;
-  font-size: 1.1rem;
-}
-
-#product-info p3
-{
-  margin: 4.5rem 0rem 0rem 0.6rem;
-  font-size: 1.5rem;
-}
-
-#product-info p4
-{
-  margin: 0.2rem 0rem 0rem 0.6rem;
-  font-size: 1rem;
-}
-
-#product-info p5
-{
-  margin: 0.2rem 0rem 0rem 0.6rem;
-  font-size: 0.9rem;
-}
-
-#winkelwagen-knop img {
-  width: 35px;
-  height: 35px;
-  margin: 10px auto 10px auto;
-}
-
-h4
-{
-  margin-top: 1rem;
-}
-
-#scrollCertificaten {
-  margin: 3rem 0px 0px 0px;
-  height: 11rem;
-}
-
-#scrollCertificaten .tekst {
-  min-width: 13.2rem;
-  height: 8rem;
-  margin: 0px 10px 0px 10px;
-}
-
-#scrollCertificaten .imgCertificaat {
-  width: 5.5rem;
-  height: 4.5rem;
-  margin: 24px auto 0.25rem auto;
-  /* 0.25rem = height border: 3rem - height img 2.5rem / 2 = 0.25rem */
-}
-
-#scrollCertificaten::-webkit-scrollbar {
-display: none;
-}
-
-#p6
-{
-  font-size: 18px;
-  min-width: 55rem;
-}
-#samenwerkingen img
-{
-  width: 200px;
-  height: 200px;
-  margin: -80px 0 0 0px;
-}
-
-#reviews
-{
-  margin: 2.5rem 0.625rem 0rem 0.625rem;
-  background-color: #FFE100;
-  width: 97vw;
-  /* breedte scherm is 414px - marges zeikanten is totaal 20px, dus 414 -20 = 394px = 23.625rem*/
-  height: 150px;
-}
-
-.rectangleReviews
-{
-  margin: -7.5rem 0rem 0rem 47rem;
-}
-
-.rectangle
-{
-  width: 209px;
-  height: 10px;
-}
-#stars img
-{
-width: 30px;
-height: 35px;
-}
-
-#stars
-{
-  margin: 9.5rem 32rem 0rem 1rem;
-  row-gap: 4px;
-}
-
-#mapsLocatie {
-  margin: 12rem 0rem 0rem -13.375rem;
-  width: 700px;
-  position: absolute;
-  height: 300px;
-}
-
-h5 {
-  margin: 20px 0px 0px 20px;
-  font-size: 25px;
-}
-
-#listFooter {
-  margin: 10px 0px 0px 10px;
-  max-width: 10px;
-}
-
-#listFooter li {
-  margin: 65px 0px 20px 10px;
-  font-size: 22px;
-  line-height: 50px;
-}
-
-#betaalLogos
-{
-  margin: 50px 0px 0px 12px;
-}
-
-#btnVestigingen
-{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 436px auto 0px auto;
-  background-color: #0A264B;
-  color:white;
-  border: none;
-  border-radius: 3px;
-  width: 300px;
-  height: 55px;
-  font-size: 25px;
-}
+  }
 
 
 
+  #scrollCategorieën::-webkit-scrollbar {
+    display: none;
+  }
+
+  h3 {
+    font-size: 22px;
+    margin: 4rem 0rem 3rem .625rem;
+  }
+
+  #populaireProducten {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 98vw;
+    height: 100vh;
+    grid-gap: 30px;
+    /* display: block; */
+    /* margin: auto; */
+  }
+
+  #borderLavaBrown {
+    width: 100%;
+    height: 100%;
+  }
+
+  #borderHalsbeschermer {
+    width: 97%;
+    height: 100%;
+  }
+
+  #borderEconomyModel {
+    width: 100%;
+    height: 100%;
+  }
+
+  #borderSoftTouch {
+    width: 97%;
+    height: 100%;
+  }
+
+  #kledingProduct img {
+    width: 12rem;
+    margin: 55px 0px 20px 10px;
+  }
+
+  #product-info h2 {
+    margin-top: -2px;
+    font-size: 1.5rem;
+  }
+
+  #product-info p1 {
+    margin: 0.3rem 0rem 0rem 0.6rem;
+    font-size: 1.1rem;
+  }
+
+  #product-info p2 {
+    margin: 4.5rem 0rem 0rem 0.6rem;
+    font-size: 1.1rem;
+  }
+
+  #product-info p3 {
+    margin: 4.5rem 0rem 0rem 0.6rem;
+    font-size: 1.5rem;
+  }
+
+  #product-info p4 {
+    margin: 0.2rem 0rem 0rem 0.6rem;
+    font-size: 1rem;
+  }
+
+  #product-info p5 {
+    margin: 0.2rem 0rem 0rem 0.6rem;
+    font-size: 0.9rem;
+  }
+
+  #winkelwagen-knop img {
+    width: 35px;
+    height: 35px;
+    margin: 10px auto 10px auto;
+  }
+
+  h4 {
+    margin-top: 93px;
+  }
+
+  #scrollCertificaten {
+    margin: 3rem 0px 0px 0px;
+    height: 11rem;
+  }
+
+  #scrollCertificaten .tekst {
+    min-width: 13.2rem;
+    height: 8rem;
+    margin: 0px 10px 0px 10px;
+  }
+
+  #scrollCertificaten .imgCertificaat {
+    width: 5.5rem;
+    height: 4.5rem;
+    margin: 24px auto 0.25rem auto;
+    /* 0.25rem = height border: 3rem - height img 2.5rem / 2 = 0.25rem */
+  }
+
+  #scrollCertificaten::-webkit-scrollbar {
+    display: none;
+  }
+
+  #p6 {
+    font-size: 18px;
+    min-width: 55rem;
+  }
+
+  #samenwerkingen img {
+    width: 200px;
+    height: 200px;
+    margin: -80px 0 0 0px;
+  }
+
+  #reviews {
+    margin: 2.5rem 0.625rem 0rem 0.625rem;
+    background-color: #FFE100;
+    width: 97vw;
+    /* breedte scherm is 414px - marges zeikanten is totaal 20px, dus 414 -20 = 394px = 23.625rem*/
+    height: 150px;
+  }
+
+  .rectangleReviews {
+    margin: -7.5rem 0rem 0rem 47rem;
+  }
+
+  .rectangle {
+    width: 353px;
+    height: 10px;
+    margin-left: 200px;
+  }
+
+  #stars img {
+    width: 30px;
+    height: 35px;
+  }
+
+  #stars {
+    margin: 9.5rem 32rem 0rem 1rem;
+    row-gap: 4px;
+  }
+
+  #mapsLocatie {
+    margin: 12rem 0rem 0rem -13.375rem;
+    width: 700px;
+    position: absolute;
+    height: 300px;
+  }
+
+  h5 {
+    margin: 20px 0px 0px 20px;
+    font-size: 25px;
+  }
+
+  #listFooter {
+    margin: 10px 0px 0px 10px;
+    max-width: 10px;
+  }
+
+  #listFooter li {
+    margin: 65px 0px 20px 10px;
+    font-size: 22px;
+    line-height: 50px;
+  }
+
+  #betaalLogos {
+    margin: 50px 0px 0px 12px;
+  }
+
+  #btnVestigingen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 436px auto 0px auto;
+    background-color: #0A264B;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    width: 300px;
+    height: 55px;
+    font-size: 25px;
+  }
+
+  .easteregg {
+    color: transparent;
+    font-family: 'roboto';
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    margin-left: 309px;
+    top: 414px;
+    border: none;
+    background-color: transparent;
+  }
+
+  .easteregg:hover {
+    color: #0A264B;
+    font-family: 'roboto';
+    cursor: default;
+  }
+
+  #myButton {
+
+    color: transparent;
+    font-family: 'roboto';
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    margin-left: 309px;
+    top: 414px;
+    border: none;
+    background-color: transparent;
+  }
+
+
+  #myButton:hover {
+    color: #0A264B;
+    font-family: 'roboto';
+    cursor: default;
+  }
+
+
+
+
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  #modaltxt {
+    font-family: cabin-medium;
+    font-size: 35px;
+    display: flex;
+    /* margin-left: 40px; */
+    margin: -21px 35px 0px 27px;
+    /* margin-top: 127px; */
+    color: #0A264B;
+  }
+
+  .modal-content {
+    background-color: #FFE100;
+    margin: 14% auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    height: 20%;
+    max-width: 600px;
+    /* align-items: center; */
+    /* display: flex; */
+    /* justify-content: center; */
+  }
+
+  .close {
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+    /* display: flex; */
+    /* position: absolute; */
+    margin: 0px 0px 0px 567px;
+    top: 149px;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  #kortingTxt {
+    font-size: 20px;
+    margin: 37px 0px 0px 110px;
+  }
 }

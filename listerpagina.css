@@ -71,7 +71,7 @@ body {
     cursor: pointer;
 }
 
-a{
+a {
     text-decoration: none;
     color: black;
 }
@@ -134,8 +134,9 @@ ul {
 }
 
 #bannerhandschoenen {
-    width: 100vw;
+    width: 102vw;
     margin: 5rem auto auto -0.5rem;
+    margin-top: 137px;
 }
 
 .wrapper {
@@ -163,8 +164,6 @@ ul {
     background-color: none;
     border-radius: 18px;
     border: 1px solid grey;
-
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -202,9 +201,9 @@ ul {
 }
 
 #handschoen1 {
-    width: 190px;
+    width: 164px;
     margin-top: 15px;
-    margin-left: -15px;
+    margin-left: 2px;
 }
 
 #product-info {
@@ -261,7 +260,7 @@ h2 {
     width: 50px;
     height: 50px;
     border-radius: 5px;
-    margin-left: 251px;
+    margin-left: 169px;
     border-radius: 10px;
     margin-top: -100px;
     position: relative;
@@ -299,7 +298,8 @@ h2 {
     height: 200px;
     overflow-x: auto;
     display: flex;
-    margin-left: 111px;
+    margin-left: -5px;
+    margin-top: 26px;
 }
 
 #scrollCategorieën .tekst {
@@ -351,7 +351,7 @@ h2 {
 .yellow-space {
     background-color: #FFE100;
     height: 361px;
-    width: 100vw;
+    width: 102vw;
     margin-left: -2vw;
     border-top: 1px solid #000000;
     border-bottom: 1px solid #000000;
@@ -424,6 +424,12 @@ h2 {
 }
 
 @media only screen and (min-width: 992px) {
+
+    #bannerhandschoenen {
+        width: 102vw;
+        margin: 5rem auto auto -0.5rem;
+        margin-top: 106px;
+    }
 
     .Certificaten {
         font-family: 'roboto';
@@ -503,8 +509,6 @@ h2 {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
-        /* margin: 0 15%; */
-        /* font-size: 30px; */
         margin-left: 159px;
     }
 
@@ -549,6 +553,12 @@ h2 {
 
     #scrollCategorieën {
         gap: 5%;
+        height: 200px;
+        overflow-x: auto;
+        display: flex;
+        gap: 5%;
+        align-items: center;
+        margin-left: 114px;
     }
 
     #navBar {
@@ -663,6 +673,22 @@ h2 {
         display: flex;
         justify-content: space-between;
         flex: 2 1 0%;
+    }
+
+    #winkelwagen-knop {
+        background-color: #FFE100;
+        border: none;
+        display: inline-block;
+        cursor: pointer;
+        width: 50px;
+        height: 50px;
+        border-radius: 5px;
+        margin-left: 252px;
+        border-radius: 10px;
+        margin-top: -100px;
+        position: relative;
+        bottom: 20px;
+        z-index: -1;
     }
 
 }

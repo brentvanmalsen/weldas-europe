@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="index.css">
+  <script defer src="index.js"></script>
   <title>Hoofdpagina</title>
 
 </head>
@@ -49,8 +50,10 @@
   <h2>Categorieën</h2>
 
   <div id="scrollCategorieën">
-    <a href="listerpagina.html"><div class="tekst"> <img class="imgCategorie" src="images/Handschoen.png" alt=""> Handschoenen
-    </div></a>
+    <a href="listerpagina.html">
+      <div class="tekst"> <img class="imgCategorie" src="images/Handschoen.png" alt=""> Handschoenen
+      </div>
+    </a>
     <div class="tekst"> <img class="imgCategorie" src="images/Kleding.png" alt=""> Kleding
     </div>
     <div class="tekst"> <img class="imgCategorie" src="images/Hoofdbescherming.png" alt=""> Hoofdbescherming
@@ -61,6 +64,23 @@
     </div>
   </div>
   </div>
+
+  <button id="myButton">?? &#128512;</button>
+
+  <div id="myModal" class="modal">
+
+    <div class="modal-content">
+
+      <span class="close">&times;</span>
+
+      <h id="modaltxt">Korting</h>
+
+      <p id="kortingTxt"><b>Uw unieke kortingscode</b>: 45pk-22wv-345</p>
+
+    </div>
+
+  </div>
+
 
 
 
@@ -132,22 +152,22 @@
 
 
 
-    <h4>Bekijk hier alle producten</h4>
+  <h4>Bekijk hier alle producten</h4>
 
-    <h3>Certificaten</h3>
+  <h3>Certificaten</h3>
 
 
-    <div id="scrollCertificaten">
-      <div class="tekst"> <img class="imgCertificaat" src="images/iso certificaat.png" alt="">
-      </div>
-      <div class="tekst"> <img class="imgCertificaat" src="images/CE certificaat.png" alt="">
-      </div>
-      <div class="tekst"> <img class="imgCertificaat" src="images/TÜV certificaat.png" alt="">
-      </div>
-      <div class="tekst"> <img class="imgCertificaat" src="images/EAC certificaat.png" alt="">
-      </div>
-      <div class="tekst"> <img class="imgCertificaat" src="images/info certificaat.png" alt="">
-      </div>
+  <div id="scrollCertificaten">
+    <div class="tekst"> <img class="imgCertificaat" src="images/iso certificaat.png" alt="">
+    </div>
+    <div class="tekst"> <img class="imgCertificaat" src="images/CE certificaat.png" alt="">
+    </div>
+    <div class="tekst"> <img class="imgCertificaat" src="images/TÜV certificaat.png" alt="">
+    </div>
+    <div class="tekst"> <img class="imgCertificaat" src="images/EAC certificaat.png" alt="">
+    </div>
+    <div class="tekst"> <img class="imgCertificaat" src="images/info certificaat.png" alt="">
+    </div>
   </div>
 
 
@@ -205,10 +225,10 @@
   <footer>
     <h5>HANDIGE LINKS</h5>
     <ul id="listFooter">
-  <li>  Algemene voorwaarden
-     Contact
- Over ons
-  Locatie</li>
+      <li> Algemene voorwaarden
+        Contact
+        Over ons
+        Locatie</li>
     </ul>
     <h5>BETAALMOGELIJKHEDEN</h5>
     <img id="betaalLogos" src="images/betaallogos.png" alt="">
